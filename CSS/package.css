@@ -1,0 +1,109 @@
+body{
+    background-image: url(./img/bg2\ himachal.jpg );
+    background-repeat: no-repeat;
+  
+    background-color: rgb(224, 189, 189);
+    
+}
+.sub-heading{
+    text-decoration: underline;
+}
+
+
+
+.marquee{
+    color:red;
+    text-decoration: underline;
+}
+.sub-heading{
+    font-size:50px;
+}
+.para1{
+   font-size: 25px;
+   color:palevioletred;
+   text-align: center;
+}
+.container2{
+    background-color:rgb(223, 231, 235);
+    width: 20%;
+    border-radius: 10px;
+    display: inline-block;
+     margin-left: 20px;
+    padding: 20px;
+}
+.container4 img{
+    border-radius: 10px;
+    margin-top: -10px;
+    width: 90%;
+    margin-left: 14px;
+}
+.para2{
+    font-size: 15px;
+    color: red;
+    background-color: skyblue;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 60px;
+    
+}
+.para3{
+    color:lightcoral;
+    margin-left: 4px;
+    font-weight: bold;
+}
+.head1{
+    text-decoration: underline;
+}
+.head1{
+    color: dodgerblue;
+    margin-left: 10px;
+}
+.para4{
+    line-height: 1.5em;
+    margin-left: 14px;
+}
+.head2{
+    margin-left: 210px;
+    margin-top: -10px;
+}
+.para5{
+    margin-left: 205px;
+    margin-top: -20px;
+}
+.head3{
+    margin-left: 225px;
+}
+.para6{
+    text-align: center;
+    background-color: lightskyblue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#second{
+    display: inline-block;
+    width: 20%;
+    
+    margin-left: 20px;
+}
+.para7{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.para8 i{
+    margin-left: 10px;
+}
+#id2{
+    color:lightcoral;
+    margin-left: 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+#id li{
+    line-height: 1.5em;
+}
+
+
+
+

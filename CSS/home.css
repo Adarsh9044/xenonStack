@@ -1,0 +1,539 @@
+/* home page css */
+.container1{
+   background-color: rgb(35, 190, 241);
+   padding: 6px;
+}
+.para1{
+   font-size: 20px;;
+}
+
+ul{
+  display: inline-block;
+}
+li{
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+li:hover{
+  color: red;
+}
+button{
+  margin-left: 90px;
+  padding: 10px;
+  font-size:20px;
+  background-color: lawngreen;
+  border-radius: 10px;
+}
+button:hover{
+  color:black ;
+  background-color: white;
+}
+
+.para2{
+  
+  font-size: xx-large;
+  text-align: center;
+  color:red;
+  font-weight: 900;
+}
+.para5{
+  line-height: 1.5em;
+  font-size: large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 15px;
+  padding: 10px;
+
+}
+.container4{
+background-color: paleturquoise;
+padding: 10px;
+margin-top: -31px;
+}
+.conatiner3{
+background-color:lightgray;
+margin-top: -20px;
+}
+.class{
+display: inline-block;
+color: red;
+text-align: center;
+}
+.class:hover{
+color: blue;
+
+}
+
+marquee{
+color: red;
+}
+.bold{
+color: rgb(35, 190, 241);
+}
+.container6{
+width: 100%;
+background-color: skyblue;
+height: 400px;
+display: inline-block;
+border-radius: 10px;
+position: relative;
+}
+.container8{
+display: inline-block;
+}
+
+img{
+width: 30%;
+height: 290px;
+display: inline-block;
+margin-left: 35px;
+border-radius: 10px;
+}
+.container7{
+background-color: aquamarine;
+border-radius: 10px;
+width: 50%;
+display: inline-block;
+margin-top: -200px;
+margin-left: 10px;
+}
+.div{
+display: inline-block;
+text-align: center;
+margin-left: 150px;
+margin-top: 100px;
+}
+.para6{
+line-height: 1.5em;
+font-size:20px;
+margin-left: 5px;
+}
+
+.bold{
+color: red;
+}
+.full{
+
+margin-top: 20px;
+border-radius: 10px;
+}
+
+#username {
+  color: red;
+  text-align: right;
+  margin-top: -40px;
+}
+#username:hover{
+  color: blue;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Source Code Pro", monospace;
+}
+.logo img {
+	margin-left: 24px;
+	border-radius: 10px;
+	margin-top: 10px;
+	width: 50px;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	background: #b7f8db;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+nav {
+	flex: 1;
+	text-align: right;
+}
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	/* comment */
+	position: relative;
+	font-size: 1rem;
+}
+nav ul li a:hover {
+	background: rosybrown;
+	border-radius: 20px;
+}
+.navbar .fa {
+	margin-right: 8px;
+}
+.sub-menu {
+	display: none;
+	position: absolute;
+	margin-top: 20px;
+
+	background: #b7f8db;
+	border-radius: 20px;
+}
+
+.sub-menu li {
+	display: block;
+	margin: 10px;
+}
+
+.container {
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2 {
+	flex-basis: 50px;
+	min-width: 300px;
+}
+.col-2 img {
+	max-width: 380px;
+	padding: 50px 0px;
+}
+.col-2 h1 {
+	font-size: 50px;
+	line-height: 70px;
+	margin: 35px 3px;
+}
+.col-2 h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+.btn {
+	display: inline-block;
+	background-color: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+.btn:hover {
+	background: #563434;
+}
+.header {
+	background: white;
+}
+.categories {
+	margin: 70px 0px;
+}
+.col-3 {
+	flex-basis: 30%;
+	min-width: 270px;
+	margin-bottom: 30px;
+	margin-left: 34px;
+}
+.col-3 img {
+	width: 70px;
+}
+#realme img {
+	width: 200px;
+}
+#realme h4 {
+	text-align: center;
+	text-decoration: underline;
+	margin-left: -70px;
+}
+#airpod img {
+	width: 300px;
+	/* align-items:left; */
+	margin-left: -26px;
+}
+#watch img{
+	width: 200px;
+	margin-left: -125px;
+}
+#watch h4{
+	text-align: center;
+	text-decoration: underline;
+	margin-left: -370px;
+
+}
+#airpod h4 {
+	text-align: center;
+	text-decoration: underline;
+}
+#earphone img{
+	width: 316px;
+	margin-left: -280px;
+}
+#earphone h4{
+	text-align: center;
+	text-decoration: none;
+	margin-left: -500px;
+}
+#tws h4 {
+	text-align: center;
+	text-decoration: underline;
+	margin-left: -100px;
+}
+#tws img {
+	width: 200px;
+}
+#venial img {
+	width: 200px;
+}
+#venial h4 {
+	text-align: center;
+	text-decoration: underline;
+	margin-left: -80px;
+}
+
+.small-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 30px;
+
+	padding-right: 30px;
+}
+.col-4 {
+	flex-basis: 25px;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+.col-4 img {
+	width: 200px;
+	align-items: left;
+}
+.col-4 h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+.col-4 p {
+	text-align: left;
+}
+#search {
+	border-radius: 15px;
+	padding: 3px;
+}
+.small-container h2 {
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+}
+.small-container h2::after {
+	content: "";
+	background: #ff523b;
+	width: 200px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.rating .fa {
+	color: #ff523b;
+}
+
+#keybord img {
+	width: 263px;
+	margin-left: -50px;
+}
+#keybord h4 {
+	text-align: center;
+	text-decoration: underline;
+	margin-left: -100px;
+}
+#mouse img {
+	margin-left: -20px;
+	width: 300px;
+}
+#mouse h4 {
+	text-align: center;
+	text-decoration: underline;
+	margin-left: -17px;
+}
+
+h4 {
+	font-weight: normal;
+}
+.col-4 p {
+	font-size: 14px;
+}
+.col-4:hover {
+	transform: translateY(-5%);
+}
+.rating .fa {
+	color: #ff523b;
+}
+#boat img {
+	width: 112px;
+}
+#realme2 img {
+	margin-left: -100px;
+}
+#apple img {
+	width: 200px;
+}
+.col-2 h5 {
+	font-size: 40px;
+	text-decoration: underline;
+}
+.offer {
+	background: radial-gradient(#fff, #ffd6d6);
+	margin-top: 80px;
+	padding: 30px 0px;
+}
+.col-2 .offer img {
+	padding: 50px;
+}
+small {
+	color: rgb(122, 107, 207);
+}
+.footer-col-2 img {
+	width: 10%;
+}
+.footer {
+	background: black;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p {
+	color: #8a8a8a;
+}
+.footer h3 {
+	color: white;
+	margin-bottom: 20px;
+}
+.footer-col-1 img {
+	width: 100px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.footer-col-1 {
+	flex-basis: 30%;
+}
+.footer hr {
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+.copyright {
+	text-align: center;
+}
+.menu-icon {
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+}
+/* all product */
+select {
+	border: 1px solid #ff523b;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 90px;
+}
+select:focus {
+	outline-style: none;
+}
+.page-btn {
+	margin: 0 auto 80px;
+	margin-left: 200px;
+}
+.page-btn span {
+	display: inline-block;
+	border: 1px solid #ff523b;
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.page-btn span:hover {
+	background: #ff523b;
+	color: white;
+}
+
+/* media query menu */
+@media only screen and (max-width: 800px) {
+	nav ul {
+		position: absolute;
+		display: inline-block;
+		top: 110px;
+		right: 0;
+		background: #333;
+
+		overflow: hidden;
+		transition: max-height 0.5;
+		text-align: center;
+	}
+	nav ul li {
+		display: block;
+		margin-right: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	nav ul li a {
+		color: white;
+	}
+	.menu-icon {
+		display: block;
+		cursor: pointer;
+	}
+}
+/* option css */
+.menu-bar {
+	background: #b7f8db;
+	display: inline-block;
+	margin-left: 350px;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 200px;
+	margin-top: 200px;
+}
+.menu-bar #link {
+	display: inline-flex;
+	list-style: none;
+	color: black;
+}
+.menu-bar #link li {
+	width: 100px;
+	margin: 15px;
+	padding: 15px;
+	background-color: greenyellow;
+	border-radius: 10px;
+	display: inline-block;
+}
+.menu-bar #link li a {
+	text-decoration: none;
+}
+.menu-bar #link li a:hover {
+	background-color: orange;
+	border-radius: 5px;
+}
+
+/* single product details */
